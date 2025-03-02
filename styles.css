@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #FF6B6B;
+    --secondary-color: #4ECDC4;
+    --background-color: #1A1A1A; 
+    --text-color: #FFFFFF; 
+    --accent-color: #FFD166; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    background: url('images\channels4_banner.jpg') no-repeat center center/cover;
+    color: var(--text-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .button {
+    background: var(--accent-color);
+    color: var(--background-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.bannerimage {
+    margin: 40px auto;
+    display: grid;
+    place-items: center;
+    min-width: 100%;
+}
+
+.music {
+    padding: 50px 0;
+}
+
+.music h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.music-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.title .button {
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+footer {
+    background: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
